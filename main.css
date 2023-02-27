@@ -24,7 +24,7 @@ header .conteiner01 {
 
 header li {
     display: inline;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Shantell Sans', cursive;
     font-weight: bold;
     margin-left: 16px;
 }
@@ -112,6 +112,7 @@ section h2,
 
 section h2, 
 section h3 {
+font-family: 'Shantell Sans', cursive;
 color:rgba(255, 62, 136, 0.884)        
 }
 
@@ -158,6 +159,8 @@ section h2 {
 
 #bolos h2,
 #bolos h3 {
+ 
+    font-family: 'Shantell Sans', cursive;
     color: #f5f6fa;
 }
 
@@ -186,10 +189,13 @@ section h2 {
     background-color: #c26868;
 }
 
+#contatos {
+    background-color: #ff65f769;
+}
+
 li{
     display: inline;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
+    font-family: 'Shantell Sans', cursive;font-weight: bold;
     margin-left: 16px;
 }
 
@@ -200,16 +206,38 @@ li{
 #redessociais h2,
 #redessociais h3 {
     color: #f5f6fa;
+    font-family: 'Shantell Sans', cursive;
 }
-
 
 #direitos {  
     background-color: #e3e3e7;
     color: #c26868;
 }
 
-
 #direitos article a {
 color: #7e1915;
 text-align: right;
+}
+
+form input, textarea, button {
+    display: block;
+    width: 450px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 150px;
+}
+
+form button {
+    background-color:  #c26868;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;  
+}
+
+form button:hover {
+    background-color:  #c54534c2;
 }
